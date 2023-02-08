@@ -39,6 +39,19 @@ p {
 /*=================================================================
   Basic Setup
 ==================================================================*/
+
+.map-me {
+  margin:0 0 -5px;
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  }
+  .map-me #map iframe {
+  width: 100%;
+  height: 378px;
+  }
+
 ::-moz-selection {
   /* Code for Firefox */
   color: #fff;
